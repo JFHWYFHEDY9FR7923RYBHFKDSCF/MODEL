@@ -237,3 +237,4 @@ if(!msg.guild.member(msg.author).hasPermission("MANAGE_ROLES")) return;
       }
       });
  
+client.login(process.env.BOT_TOKEN);
